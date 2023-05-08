@@ -1,0 +1,46 @@
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0 1rem;
+}
+    .skills-divider{
+        border-top: 1px solid #eee;
+        opacity: .2;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .skill-level{
+        color: white;
+        width: 100%;
+        background-color: #f1f1f1;
+        text-align: center;
+    }
+    .skill-level-html{
+        padding: .3rem;
+        width: 95%;
+        background-color: #616161;
+    }
+    .skill-level-css{
+        padding: .3rem;
+        width: 95%;
+        background-color: #616161;
+    }
+    .skill-level-js{
+        padding: .3rem;
+        width: 80%;
+        background-color: #616161;
+    }
+    .skill-level-wp{
+        padding: .3rem;
+        width: 90%;
+        background-color: #616161;
+    }
+
+@media screen and (min-width:838px){
+    .skills{
+        margin-left: 40%;
+    }
+}

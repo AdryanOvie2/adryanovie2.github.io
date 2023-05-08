@@ -4,28 +4,152 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adrian</title>
-    <style>
-        *{
-            font-family: monospace;
-        }
-        body{
-            background-color: #222;
-        }
-        .container{
-            position: relative;
-            height: 90vh;
-        }
-        .container h1{
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            color: white;
-        }
-    </style>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container"><h1 title="Adrian Oviedo Gainza">✅ Site in progress.. </h1></div>
+    <section class="sidenav">
+        <h1 class="sidenav-title-author">Adrian Oviedo</h1>
+        <p class="sidenav-subtitle-description">Web designer</p>
+        <div class="sidenav-figure">
+            <div class="sidenav-figure-img"></div>
+        </div>
+        <a class="sidenav-contact" href="#contact">Contact me!</a>
+    </section>
+
+    <section class="portfolio my-4">
+        <h2 class="portfolio-title">My Portfolio</h2>
+        <hr class="portfolio-divider">
+        <figure class="portfolio-gallery">
+            <div class="portfolio-gallery-column">
+                <img src="img/1.jpeg" alt="gallery1">
+                <img src="img/2.jpg" alt="gallery2">
+                <img src="img/3.jpeg" alt="gallery3">
+                <img src="img/4.jpg" alt="gallery4">
+            </div>  
+        </figure>
+    </section>
+
+    <section class="about my-4">
+        <h2 class="about-title">About Me</h2>
+        <hr class="about-divider">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus aliquid dicta ipsa! Earum et excepturi temporibus distinctio praesentium quod non consequatur, amet fugit quo blanditiis quae enim sapiente autem exercitationem aliquid, natus minus at mollitia eveniet! Tempora facilis voluptatum ducimus aspernatur recusandae fugit laudantium velit, accusantium asperiores dolorum, commodi molestiae facere, beatae temporibus ut rem ipsum a adipisci iure. Culpa, iusto velit quasi et ut iure. Dolores ratione excepturi, in voluptatum enim fuga mollitia, quos iste temporibus unde, praesentium sint beatae facilis neque et deleniti! Nulla nihil quos minus ex aperiam similique, modi adipisci asperiores rerum qui deleniti aspernatur laudantium.
+        </p>
+    </section>
+
+    <section class="skills my-4">
+        <h2 class="skills-title">Skills</h2>
+        <hr class="skills-divider"></hr>
+        <p class="skill-title">HTML5</p>
+        <div class="skill-level">
+            <div class="skill-level-html">
+                95%
+            </div>
+        </div>
+        <p class="skill-title">CSS3</p>
+        <div class="skill-level">
+            <div class="skill-level-css">
+                95%
+            </div>
+        </div>
+        <p class="skill-title">JavaScript</p>
+        <div class="skill-level">
+            <div class="skill-level-js">
+                80%
+            </div>
+        </div>
+        <p class="skill-title">Wordpress</p>
+        <div class="skill-level">
+            <div class="skill-level-wp">
+                90%
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial my-4">
+        <h2 class="testimonial-title">My Reputation</h2>
+
+        <div class="testimonial-card my-1">
+            <figure class="testimonial-card-img">
+                <img src="img/user2.png" alt="user1">
+            </figure>
+            <div class="testimonial-info">
+                <p class="testimonial-info-name">Fulanito Mengano <span class="testimonial-info-rol">Web designer</span></p>
+                <p class="testimonial-info-comment">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+        </div>    
+        <div class="testimonial-card my-1">
+            <figure class="testimonial-card-img">
+                <img src="img/user2.png" alt="user1">
+            </figure>
+            <div class="testimonial-info">
+                <p class="testimonial-info-name">Fulanito Mengano <span class="testimonial-info-rol">Web designer</span></p>
+                <p class="testimonial-info-comment">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+        </div>    
+        <div class="testimonial-card my-1">
+            <figure class="testimonial-card-img">
+                <img src="img/user2.png" alt="user1">
+            </figure>
+            <div class="testimonial-info">
+                <p class="testimonial-info-name">Fulanito Mengano <span class="testimonial-info-rol">Web designer</span></p>
+                <p class="testimonial-info-comment">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing my-4">
+        <h2 class="pricing-title">Pricing</h2>
+        <div class="pricing-card">
+            <div class="pricing-card-header">
+                <p>Basic</p>
+            </div>
+            <div class="pricing-card-body">
+                <p>Web design</p>
+                <p>Photography</p>
+                <p>5GB Storage</p>
+                <p>Mail Support</p>
+                <p>$ 10 <span>per month</span></p>
+            </div>
+            <div class="pricing-card-footer">
+                <a href="#">Pedir cita</a>
+            </div>
+        </div>
+        <div class="pricing-card">
+            <div class="pricing-card-header pro">
+                <p>Pro</p>
+            </div>
+            <div class="pricing-card-body">
+                <p>Web design</p>
+                <p>Photography</p>
+                <p>50GB Storage</p>
+                <p>Mail Support</p>
+                <p>$ 20 <span>per month</span></p>
+            </div>
+            <div class="pricing-card-footer">
+                <a href="#">Pedir cita</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact my-4">
+        <h2 class="contact-title">Contact Me</h2>
+        <hr class="contact-divider">
+        <h3>Lets get in touch. Send me a message:</h3>
+        <form action="#" class="contact-form">
+            <input type="text" name="name" placeholder="Name">
+            <input type="email" name="email" placeholder="Email">
+            <input type="text" name="subject" placeholder="Subject">
+            <input type="text" name="message" placeholder="Message">
+            <div class="contact-form-submit">
+                <a class="contact-submit" href="#">Send message</a>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <p>Powered by E_e</p>
+    </footer>
 </body>
 </html>

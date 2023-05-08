@@ -1,0 +1,24 @@
+@import "components/sidenav.css";
+@import "components/portfolio.css";
+@import "components/about.css";
+@import "components/skills.css";
+@import "components/testimonial.css";
+@import "components/pricing.css";
+@import "components/contact.css";
+@import "components/footer.css";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+    /* color: #757575; */
+}
+
+a{text-decoration: none;color: inherit;}
+
+.my-1{margin-top: 1rem;margin-bottom: 1rem;}
+.my-2{margin-top: 2rem;margin-bottom: 2rem;}
+.my-3{margin-top: 3rem;margin-bottom: 3rem;}
+.my-4{margin-top: 4rem;margin-bottom: 4rem;}
+.my-5{margin-top: 5rem;margin-bottom: 5rem;}

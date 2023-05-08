@@ -1,0 +1,54 @@
+.sidenav{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 1rem;
+    justify-content: center;
+    place-items: center;
+}
+.sidenav-title-author{
+    font-size: 2rem;
+    text-align: center;
+}
+.sidenav-figure{
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+    .sidenav-figure-img{
+        background-position: center left;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url('../../img/sidenav.png');
+        min-height: 100%;
+        filter: grayscale(95%);
+    }
+    .sidenav-contact{
+        background-color: lightgray;
+        padding: .5rem 1rem;
+        border-radius: 3px;
+    }
+
+@media screen and (min-width:578px) {
+    .sidenav-figure{
+        width: 70%;
+    }
+}
+@media screen and (min-width:838px) {
+    .sidenav-figure{
+        position: fixed;
+        height: 100%;
+        width: 40%;
+    }
+    .sidenav-title-author, .sidenav-subtitle-description, .sidenav-contact{
+        margin-left: 40%;
+    }
+    .sidenav-title-author{
+        font-size: 4rem;
+    }
+}
+
